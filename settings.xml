@@ -11,7 +11,7 @@
   <con:entry key="Test Suite Tags" value=""/>
   <con:entry key="Select Report Type" value="JUnit-Style report for automation"/>
   <con:entry key="System Properties" value=""/>
-  <con:entry key="Test Suite" value="&lt;all>"/>
+  <con:entry key="Test Suite" value="OpenWeatherMapAPI TestSuite"/>
   <con:entry key="Run in-process" value="false"/>
   <con:entry key="Password" value=""/>
   <con:entry key="Print Report" value="true"/>
@@ -67,7 +67,7 @@
   <con:entry key="Domain" value=""/>
   <con:entry key="Tool Args" value=""/>
   <con:entry key="Save Project" value="false"/>
-</xml-fragment>]]></con:setting></con:settings><con:vcsConfiguration><con:vcsName>Git</con:vcsName><con:repositoryIdentifier>https://github.com/mhawley1230/ReadyAPI---OpenWeatherMap.git</con:repositoryIdentifier></con:vcsConfiguration><con:properties><con:property><con:name>api_key</con:name><con:value>d3c28fe95b29f365b7ed1e567d19478d</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+</xml-fragment>]]></con:setting><con:setting id="94e265cc-b0a1-4d92-981d-33e37adb88defileName">OpenWeatherAPI-readyapi-project</con:setting></con:settings><con:vcsConfiguration><con:vcsName>Git</con:vcsName><con:repositoryIdentifier>https://github.com/mhawley1230/ReadyAPI---OpenWeatherMap.git</con:repositoryIdentifier></con:vcsConfiguration><con:requirements/><con:properties><con:property><con:name>api_key</con:name><con:value>d3c28fe95b29f365b7ed1e567d19478d</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to SoapUI Pro tests
 
 // If hardcoding the token, uncomment and change line 5
@@ -90,4 +90,4 @@
 // pw = new PrintWriter(fos)
 // testStepResult.writeTo(pw)
 // pw.close()
-// fos.close()</con:script></con:eventHandlers><con:authRepository/><con:tags/></con:soapui-project>
+// fos.close()</con:script></con:eventHandlers><con:environment id="4cd2101f-5b58-4bda-a00e-f5820414b8fb" name="drop"><con:service type="REST" name="OpenWeatherMapAPI"><con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://api.openweathermap.org</con:endpoint></con:service><con:property><con:name>api_key</con:name><con:value>d3c28fe95b29f365b7ed1e567d19478d</con:value></con:property><con:databaseConnectionContainer/><con:jmsConnectionContainer/></con:environment><con:authRepository/><con:tags/></con:soapui-project>
